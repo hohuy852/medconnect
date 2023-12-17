@@ -1,0 +1,19 @@
+.c-mainvisual {
+    .c-mainvisual__images {
+        overflow: hidden;
+    }
+
+    .c-mainvisual__image {
+        img {
+            max-height: 800px;
+            object-fit: cover;
+            width: 100%;
+            object-position: center;
+        }
+    }
+
+    .slick-slide {
+        width: 100%;
+        /* Ensure each slide takes the full width of the container */
+    }
+}

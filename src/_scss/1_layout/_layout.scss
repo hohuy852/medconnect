@@ -1,0 +1,35 @@
+/* layout
+------------------------------------------------------------*/
+body {
+    font-family: "EB Garamond", serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 500;
+    @include sp {
+        min-width: 320px;
+    }
+}
+
+
+//-------------------------------------------------------
+.l-container {
+    max-width: 1200px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.l-container--1000 {
+    max-width: 1000px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.sp-only {
+    display: none;
+    @include tab {
+        display: none;
+    }
+    @include sp {
+        display: block;
+    }
+}

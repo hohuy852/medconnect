@@ -1,0 +1,40 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {
+    .c-header__head {   
+        display: flex;
+        align-items: center;
+        padding: 45px 50px;
+        background: url("../../assets/img/common/header-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .c-header__logo {
+        width: 18%;
+    }
+
+    .c-header__title {
+        font-weight: 700;
+        font-size: 5.5rem;
+        width: 30%;
+        color: #009444;
+        margin-left: 41px;
+    }
+
+    .c-header__nav {
+        display: flex;
+        color: #fff;
+        font-size: 2rem;
+        justify-content: center;
+        background-color: #009444;
+        padding: 10px 0;
+
+        a {
+            padding: 0 10px;
+        }
+    }
+
+}
+
