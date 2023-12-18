@@ -13,6 +13,8 @@
 
     .c-header__logo {
         width: 18%;
+        min-width: 324px;
+        flex-shrink: 0;
     }
 
     .c-header__title {
@@ -21,6 +23,7 @@
         width: 30%;
         color: #009444;
         margin-left: 41px;
+        flex-grow: 1;
     }
 
     .c-header__nav {
@@ -34,7 +37,16 @@
         a {
             padding: 0 10px;
         }
+        @include medium {
+            font-size: 1.7rem;
+        }
     }
-
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; 
+        z-index: 999;
+    }
 }
 
