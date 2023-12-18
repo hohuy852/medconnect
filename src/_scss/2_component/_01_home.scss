@@ -17,3 +17,49 @@
         /* Ensure each slide takes the full width of the container */
     }
 }
+
+.c-university {
+    margin-bottom: 40px;
+
+    .c-university__tabs {
+        display: flex;
+    }
+
+    .c-university__tab {
+        padding: 0 20px;
+        color: #000;
+        font-size: 1.6rem;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid #000;
+        margin-right: 10px;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .c-university__tab:hover {
+        background: #009444;
+        border: 1px solid #009444;
+        color: #fff;
+    }
+
+    .c-university__tab.active {
+        background: #009444;
+        border: 1px solid #009444;
+        color: #fff;
+    }
+
+    .c-university__result {
+        display: flex;
+        margin-top: 10px;
+
+        li {
+            font-size: 1.6rem;
+            background: #009444;
+            color: #fff;
+            margin-right: 10px;
+            padding: 11px 10px;
+            border-radius: 8px;
+        }
+    }
+}

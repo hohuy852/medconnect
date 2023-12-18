@@ -18,12 +18,6 @@ body {
     margin: 0 auto;
 }
 
-.l-container--1000 {
-    max-width: 1000px;
-    width: 92%;
-    margin: 0 auto;
-}
-
 .sp-only {
     display: none;
     @include tab {
